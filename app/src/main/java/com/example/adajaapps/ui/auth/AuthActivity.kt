@@ -14,7 +14,6 @@ class AuthActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_auth)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_auth)
     }
 
