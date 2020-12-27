@@ -12,7 +12,6 @@ import com.example.adajaapps.R
 import com.example.adajaapps.data.repository.AuthRepository
 import com.example.adajaapps.databinding.FragmentLoginBinding
 
-
 class LoginFragment : Fragment() {
     val parent: AuthActivity by lazy { activity as AuthActivity }
     val viewModel: AuthViewModel by lazy { AuthViewModel(AuthRepository(parent)) }
@@ -53,5 +52,4 @@ class LoginFragment : Fragment() {
             it.isConsumed = true
         }
     }
-
 }

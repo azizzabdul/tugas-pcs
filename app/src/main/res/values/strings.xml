@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AdajaApps</string>
+    <string name="app_name">Recipes Puppy</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="logout">Logout</string>
@@ -8,4 +8,8 @@
     <string name="login">Login</string>
     <string name="register">register</string>
     <string name="full_name">Nama Lengkap</string>
+    <string name="ic_home">Beranda</string>
+    <string name="ic_news">Berita</string>
+    <string name="ic_favorite">Favorit</string>
+    <string name="ic_profile">Profile</string>
 </resources>
